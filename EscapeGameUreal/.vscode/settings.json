@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"E:/Unreal Projects/Escape Game/EscapeGameUreal/.vscode": true,
+		"E:/Unreal Projects/Escape Game/EscapeGameUreal/Content": true,
+		"E:/Unreal Projects/Escape Game/EscapeGameUreal/Intermediate": true,
+		"E:/Unreal Projects/Escape Game/EscapeGameUreal/Saved": true
+	},
+	"C_Cpp.errorSquiggles": "Enabled"
+}

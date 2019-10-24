@@ -1,0 +1,11 @@
+##########################
+# Unreal Generated Files #
+##########################
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Intermediate
+*/Saved
+EscapeGameUreal/Content/StarterContent/Textures
+EscapeGameUreal/Content/StarterContent/HDRI
+*.VC.db

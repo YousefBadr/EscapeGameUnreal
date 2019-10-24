@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "EscapeGameUreal (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUreal Win64 Debug Build",
+			"program": "E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\Binaries\\Win64\\EscapeGameUreal-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUreal (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUreal Win64 DebugGame Build",
+			"program": "E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\Binaries\\Win64\\EscapeGameUreal-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUreal (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUreal Win64 Development Build",
+			"program": "E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\Binaries\\Win64\\EscapeGameUreal.exe",
+			"args": [
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUreal (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUreal Win64 Shipping Build",
+			"program": "E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\Binaries\\Win64\\EscapeGameUreal-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUreal (Test)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUreal Win64 Test Build",
+			"program": "E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\Binaries\\Win64\\EscapeGameUreal-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUrealEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUrealEditor Win64 Debug Build",
+			"program": "E:\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\EscapeGameUreal.uproject"
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUrealEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUrealEditor Win64 DebugGame Build",
+			"program": "E:\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\EscapeGameUreal.uproject"
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeGameUrealEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeGameUrealEditor Win64 Development Build",
+			"program": "E:\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\EscapeGameUreal.uproject"
+			],
+			"cwd": "E:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\Epic Games\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"E:\\Unreal Projects\\Escape Game\\EscapeGameUreal\\EscapeGameUreal.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\Epic Games\\UE_4.22"
+		}
+	]
+}
